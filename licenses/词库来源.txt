@@ -1,0 +1,26 @@
+Glass Keys 词库来源与授权
+（免费、非商业分发。词库文件与生成脚本公开于 https://github.com/charleslau010/glasskeysinput ）
+
+拼音字词与词频
+- rime-ice 雾凇拼音 cn_dicts/8105.dict.yaml、base.dict.yaml、ext.dict.yaml，en_dicts 英文词典
+  https://github.com/iDvel/rime-ice  GPL-3.0
+  Source commit: da1fbe602e38f26db846fa10120ee64c2b0324c0 (2026-10-05). Retrieved: 2026-10-18.
+- 万象拼音 rime_wanxiang dicts（基础、地名、混合词）  https://github.com/amzxyz/rime_wanxiang  CC BY 4.0
+- pinyin-data 汉字拼音  https://github.com/mozillazg/pinyin-data  MIT
+- 明月拼音、地球拼音词典与 essay 词频（Rime 官方）  https://github.com/rime  LGPL-3.0
+- 笔画（stroke.dict.yaml）  LGPL-3.0
+- SymSpell 拼写纠错算法  https://github.com/wolfgarbe/SymSpell  MIT
+Character counts divided by 1000; 24 conversational terms use a 4x ranking multiplier, not measured corpus counts.
+
+专有名词与新词（地名、道路、车站、景区、人物、品牌、作品、网络用语等）
+- 国家统计局统计用区划代码，经 modood/Administrative-divisions-of-China（WTFPL）
+- OpenStreetMap 地名与道路：© OpenStreetMap contributors，Open Database License (ODbL) 1.0
+  https://www.openstreetmap.org/copyright  由其衍生的词表同样按 ODbL 提供
+- Wikidata  https://www.wikidata.org  CC0 1.0
+- 中文维基百科页面标题与列表  https://zh.wikipedia.org  CC BY-SA 4.0，Wikipedia contributors
+- 萌娘百科词条标题，经 outloudvi/mw2fcitx（MIT）  https://zh.moegirl.org.cn  内容为 CC BY-NC-SA 3.0
+- fcitx5-pinyin-zhwiki 网络用语（web-slang）  https://github.com/felixonmars/fcitx5-pinyin-zhwiki  Unlicense；源自中文维基百科（CC BY-SA）
+- THUOCL 清华大学开放中文词库  https://github.com/thunlp/THUOCL  MIT
+- 中国铁路 12306 公开车站名表；公开报道检索与人工整理
+
+Vendored sources: research/dictionary-update-20261018/. Rebuild with this project tools/build_dictionary.py.

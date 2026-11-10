@@ -1,0 +1,9 @@
+OpenStreetMap data © OpenStreetMap contributors
+Available under the Open Database License (ODbL) 1.0.
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+
+Place, road and point-of-interest names in sources/全部词条_去重汇总.txt and the
+dictionaries derived from it include data extracted from OpenStreetMap
+(China and Taiwan extracts, 2026-10-21 snapshot). That derived database is
+offered under the ODbL 1.0.
